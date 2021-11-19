@@ -32,7 +32,7 @@ async def on_ready():
 async def on_member_join(member):
     await member.create_dm()
     await member.dm_channel.send(
-        f'Hello {member.name}!, Welcome to the Dev Team 👋')
+        f'Hello {member.name}!, Welcome to the {GUILD} 👋')
 
 
 client.run(TOKEN)
